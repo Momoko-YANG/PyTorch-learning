@@ -1,1 +1,8 @@
 Downloads/Study-main-2/pytorch-learning/data
+# 添加以下内容到 .gitignore
+*.tar.gz
+*.zip
+**/data/
+**/__pycache__/
+*.pyc
+.ipynb_checkpoints/
