@@ -1,8 +1,21 @@
-Downloads/Study-main-2/pytorch-learning/data
-# 添加以下内容到 .gitignore
+# 数据文件
 *.tar.gz
 *.zip
 **/data/
-**/__pycache__/
+*.data-numeric
+
+# Python
+__pycache__/
+*.py[cod]
 *.pyc
+
+# Jupyter Notebook
 .ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# 模型文件
+*.pth
+*.pt
+*.ckpt
